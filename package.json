@@ -1,0 +1,14 @@
+{
+  "name": "caitlyn",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "pm2 startOrRestart ecosystem.config.js",
+    "stop": "pm2 kill"
+  },
+  "dependencies": {
+    "pm2": "^2.6.1",
+    "request": "^2.81.0"
+  }
+}
