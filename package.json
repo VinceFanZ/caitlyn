@@ -8,6 +8,7 @@
     "stop": "pm2 kill"
   },
   "dependencies": {
+    "node-schedule": "^1.2.4",
     "pm2": "^2.6.1",
     "request": "^2.81.0"
   }
