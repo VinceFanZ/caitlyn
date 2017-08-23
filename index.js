@@ -1,3 +1,5 @@
+const schedule = require('node-schedule')
+
 const signIn = require('./src/sign-in.js')
 
 const rule = new schedule.RecurrenceRule()
